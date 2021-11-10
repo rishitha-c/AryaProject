@@ -13,7 +13,7 @@ const firebaseConfig = {
 
   user_name= localStorage.getItem("user_name") ;
     room_name= localStorage.getItem("room_name") ;
-    document.getElementById("room_name").innerHTML="The room is :"+room_name;
+    
     
     function send()
     {
